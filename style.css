@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Images/w.webp');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b815fd;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .nav-list a:hover {
+    text-decoration: underline;
+  }
+  
+  .form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px green;
+  }
+  
+  .logo {
+    max-height: 80px;
+  }
+  
+  label,
+  input,
+  textarea,
+  select {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  input,
+  textarea,
+  select {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: darkgreen;
+    color: aliceblue;
+    cursor: pointer;
+  }
+  
+  select[name="country_code"] {
+    width: 20%;
+  }
+  
+  h1 {
+    font-family: 'Comic sans MS', sans-serif; 
+    text-align: center;
+    font-size: 36px; 
+    color: #000000; 
+  }
+  
